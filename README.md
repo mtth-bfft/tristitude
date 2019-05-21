@@ -1,6 +1,8 @@
 # tristitude
 
-A simple process security policy enumerator. Currently tested settings mainly include (per-process, per-executable or system-wide) job properties and mitigation policies. This tool is a work in progress based on Google's great [sandbox-attacksurface-analysis-tools](https://github.com/google/sandbox-attacksurface-analysis-tools).
+A simple process security policy enumerator. This project has been superseded by https://github.com/mtth-bfft/ntsec, which now has the same functionalities and many more :)
+
+Currently tested settings mainly include (per-process, per-executable or system-wide) job properties and mitigation policies. This tool is an archived project based on Google's great [sandbox-attacksurface-analysis-tools](https://github.com/google/sandbox-attacksurface-analysis-tools).
 
 ## Usage
 
@@ -86,7 +88,3 @@ Here are the results you can get when running in a Docker container with memory 
  [.] Can load executables with arbitrary integrity labels
  [.] Classic executable search path in use
 ```
-
-## Contributing
-
-If you find this tool useful and you would like it to show some additional settings, don't hesitate to [ping me](https://twitter.com/mtth_bfft) or send a pull request.
